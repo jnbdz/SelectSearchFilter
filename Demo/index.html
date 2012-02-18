@@ -1,0 +1,151 @@
+<!DOCTYPE HtMl>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>SelectSearchFilter.js</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+<header>
+    <h1>SelectSearchFilter.js</h1>
+</header>
+<form action="/">
+    <select name="select">
+        <option value="a">About</option>
+        <option value="h">History</option>
+        <option value="c">Contact</option>
+        <option value="a">About</option>
+    </select>
+<br/>
+<br/>
+    <select name="select-two">
+        <option value="1">About</option>
+        <option value="2">App</option>
+        <option value="3">Coco</option>
+        <option value="4">Crack</option>
+        <option value="5">Hack</option>
+    </select>
+<br/>
+<br/>
+<select name="select-three">
+		<option>accumsan</option>
+		<option>accusam</option>
+		<option>ad</option>
+		<option>adipiscing</option>
+		<option>aliquam</option>
+		<option>aliquip</option>
+		<option>aliquyam</option>
+		<option>amet</option>
+		<option>At</option>
+		<option>at</option>
+		<option>augue</option>
+		<option>autem</option>
+		<option>blandit</option>
+		<option>clita</option>
+		<option>commodo</option>
+		<option>consectetuer</option>
+		<option>consequat</option>
+		<option>consetetur</option>
+		<option>delenit</option>
+		<option>diam</option>
+		<option>dignissim</option>
+		<option>dolor</option>
+		<option>dolore</option>
+		<option>dolores</option>
+		<option>Duis</option>
+		<option>duis</option>
+		<option>duo</option>
+		<option>ea</option>
+		<option>eirmod</option>
+		<option>elit</option>
+		<option>elitr</option>
+		<option>enim</option>
+		<option>eos</option>
+		<option>erat</option>
+		<option>eros</option>
+		<option>esse</option>
+		<option>est</option>
+		<option>et</option>
+		<option>eu</option>
+		<option>euismod</option>
+		<option>eum</option>
+		<option>ex</option>
+		<option>exerci</option>
+		<option>facilisi</option>
+		<option>facilisis</option>
+		<option>feugait</option>
+		<option>feugiat</option>
+		<option>gubergren</option>
+		<option>hendrerit</option>
+		<option>illum</option>
+		<option>in</option>
+		<option>invidunt</option>
+		<option>ipsum</option>
+		<option>iriure</option>
+		<option>iusto</option>
+		<option>justo</option>
+		<option>kasd</option>
+		<option>labore</option>
+		<option>laoreet</option>
+		<option>lobortis</option>
+		<option>Lorem</option>
+		<option>luptatum</option>
+		<option>magna</option>
+		<option>minim</option>
+		<option>molestie</option>
+		<option>nibh</option>
+		<option>nisl</option>
+		<option>no</option>
+		<option>nonummy</option>
+		<option>nonumy</option>
+		<option>nostrud</option>
+		<option>nulla</option>
+		<option>odio</option>
+		<option>praesent</option>
+		<option>qui</option>
+		<option>quis</option>
+		<option>rebum</option>
+		<option>sadipscing</option>
+		<option>sanctus</option>
+		<option>sea</option>
+		<option>sed</option>
+		<option>sit</option>
+		<option>Stet</option>
+		<option>suscipit</option>
+		<option>takimata</option>
+		<option>tation</option>
+		<option>te</option>
+		<option>tempor</option>
+		<option>tincidunt</option>
+		<option>ullamcorper</option>
+		<option>Ut</option>
+		<option>ut</option>
+		<option>vel</option>
+		<option>velit</option>
+		<option>veniam</option>
+		<option>vero</option>
+		<option>voluptua</option>
+		<option>volutpat</option>
+		<option>vulputate</option>
+		<option>wisi</option>
+		<option>zzril</option>
+	</select>
+</form>
+<br/>
+<button id="detach">Detach</button>
+<footer>
+    <p>MIT License.</p>
+</footer>
+<script src="assets/js/mootools.js"></script>
+<script src="../Source/SelectSearchFilter.js"></script>
+<script>
+window.addEvent('domready', function() {
+    var selectors = new SelectSearchFilter('select');
+
+    document.id('detach').addEvent('click', function() {
+        selectors.detach();
+    });
+});
+</script>
+</body>
+</html>

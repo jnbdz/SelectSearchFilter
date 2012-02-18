@@ -1,0 +1,135 @@
+body {
+    padding: 20px;
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    border-bottom: 1px solid #ccc;
+}
+
+footer p {
+    border-top: 1px solid #ccc;
+}
+
+input[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  -ms-background-clip: padding-box;
+  -o-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  background-color: white;
+  border: 0 none;
+  color: black;
+  outline: 0;
+  margin: 0;
+  padding: 2px 3px;
+  text-align: left;
+  font-size: 13px;
+  height: 1.8em;
+  vertical-align: top;
+  *padding-top: 2px;
+  *padding-bottom: 1px;
+  *height: auto;
+}
+
+textarea[disabled],
+select[disabled],
+input[type="date"][disabled],
+input[type="datetime"][disabled],
+input[type="datetime-local"][disabled],
+input[type="email"][disabled],
+input[type="month"][disabled],
+input[type="number"][disabled],
+input[type="password"][disabled],
+input[type="search"][disabled],
+input[type="tel"][disabled],
+input[type="text"][disabled],
+input[type="time"][disabled],
+input[type="url"][disabled],
+input[type="week"][disabled] {
+  background-color: #eeeeee;
+}
+
+.inline-block {
+    display:-moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+}
+
+.SelectSearchFilter-wrap {
+    /*border: 1px solid red;*/
+}
+
+.SelectSearchFilter-box {
+    overflow: hidden;
+    border: 1px solid #000;
+    width: auto;
+}
+
+.SelectSearchFilter-input {
+    vertical-align: middle;
+    padding-right:16px;
+}
+
+.SelectSearchFilter-button {
+    background: url(../img/select_arrow.gif) no-repeat 0 10px;
+    border: 0 none;
+    width: 15px;
+    vertical-align: middle;
+}
+
+.SelectSearchFilter-optionsBox {
+    border: 1px solid #000;
+    position: absolute;
+    width: auto;
+    background-color: #fff;
+}
+
+.SelectSearchFilter-optionsBox ul {
+    padding: 10px 5px 10px 5px;
+    list-style: none;
+}
+
+.SelectSearchFilter-optionsBox li {
+    padding: 5px;
+}
+
+.SelectSearchFilter-optionsBox a {
+    color: #000;
+    text-decoration: none;
+    cursor: default;
+}
+
+.SelectSearchFilter-optionsBox a:hover, .SelectSearchFilter-highlight {
+    background-color: yellow;
+}
