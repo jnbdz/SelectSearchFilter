@@ -14,7 +14,7 @@ You just need to call SelectSearchFilter() class.
 
 **Syntax:**
 
-```var selectors = new SelectSearchFilter(tag, [options]);```
+    var selectors = new SelectSearchFilter(tag, [options]);
 
 **Implements:**
 
@@ -37,7 +37,7 @@ Attaches the mouse listeners to the button, html, and body element. And adding t
 
 **Syntax:**
 
-```selectors.attach();```
+    selectors.attach();
 
 **Notes:**
 
@@ -50,7 +50,7 @@ Detaches the mouse listeners from the elements it was attach to. It also removes
 
 **Syntax:**
 
-```selectors.detach();```
+    selectors.detach();
 
 **Returns:**
 
